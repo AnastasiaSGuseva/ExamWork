@@ -8,8 +8,6 @@ for (int i = 0; i < array.Length; i++)
         count++;
 }
 
-Console.WriteLine(count);
-
 string[] finalArray = new string[count];
 
 int k = 0;
