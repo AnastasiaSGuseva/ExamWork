@@ -1,2 +1,2 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿string [] array = {"one", "two", "three", "four", "five", "six", "seven"};
+Console.WriteLine("[" + string.Join(", ", array) + "]");
